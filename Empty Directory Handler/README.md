@@ -12,10 +12,8 @@ chmod +x remove-empty-folder.sh
 ## Displaying Empty Directories
 To display all empty directories within a given directory, run the following command:
 
-./run.sh --directory /your/directory/path
-
 ```bash
-./run.sh --directory /your/directory/path
+./remove-empty-folder.sh --directory /your/directory/path
 ```
 This will print a table displaying the paths of all empty directories within the specified directory.
 
@@ -24,7 +22,7 @@ This will print a table displaying the paths of all empty directories within the
 To remove all empty directories within a given directory, run the following command:
 
 ```bash
-./run.sh --remove --directory /your/directory/path
+./remove-empty-folder.sh --remove --directory /your/directory/path
 ```
 This will delete all empty directories within the specified directory and print a table showing the paths of the directories that were removed.
 
