@@ -19,7 +19,7 @@ show_empty_dirs() {
 }
 
 if [ "$#" -lt 2 ]; then
-    echo "Use the follow command: ./run.sh --directory /jouw/pad [--remove]"
+    echo "Use the follow command: ./remove-empty-folder.sh --directory /your/directory/path [--remove]"
     exit 1
 fi
 
@@ -35,7 +35,7 @@ if [ "$1" == "--remove" ]; then
 elif [ "$1" == "--directory" ]; then
     show_empty_dirs "$dir"
 else
-    echo "Error. Use the follow command: ./run.sh --directory /jouw/pad [--remove]"
+    echo "Error. Use the follow command: ./remove-empty-folder.sh --directory /your/directory/path [--remove]"
     exit 1
 fi
 
