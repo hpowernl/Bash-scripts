@@ -33,4 +33,4 @@ When using the removal feature, please ensure you have backed up any important d
 Feel free to submit pull requests for bug fixes or improvements.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/hpowernl/Bash-scripts/blob/main/LICENSE)
