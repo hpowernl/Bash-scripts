@@ -8,12 +8,12 @@ Before using `es-clean`, ensure you have SSH access to the target Elasticsearch 
 
 ## Installation
 1. **Download the Script:**  
-   Download `es-clean` script to your local system.
+   Download `es-clean.sh` script to your local system.
 
 2. **Move the Script to `/usr/local/bin/`:**  
    Move the script to the `/usr/local/bin/` directory to make it globally accessible. This can be done using the following command:
    ```
-   mv es-clean /usr/local/bin/
+   mv es-clean.sh /usr/local/bin/es-clean
    ```
 
 3. **Make the Script Executable:**  
